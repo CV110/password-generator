@@ -44,6 +44,7 @@ span.addEventListener("copy", function(event) {
     console.log(event.clipboardData.getData("text"))
   }
   p.textContent="text copied!"
+  p2.textContent=""
 });
 
 span2.onclick = function() {
@@ -56,6 +57,7 @@ span2.addEventListener("copy", function(event) {
     console.log(event.clipboardData.getData("text"))
   }
   p2.textContent="text copied!"
+  p.textContent=""
 });
 
 
